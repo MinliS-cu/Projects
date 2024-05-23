@@ -1,0 +1,21 @@
+
+data/.DS_Store
+*.json
+*.zip
+data/nyc_zipcodes/nyc_zipcodes.dbf
+data/nyc_zipcodes/nyc_zipcodes.prj
+data/nyc_zipcodes/nyc_zipcodes.sbn
+data/nyc_zipcodes/nyc_zipcodes.sbx
+data/nyc_zipcodes/nyc_zipcodes.shp
+.DS_Store
+data/nyc_zipcodes/nyc_zipcodes.shp.xml
+data/nyc_zipcodes/nyc_zipcodes.shx
+data/zillow_rent_data.csv
+.ipynb_checkpoints/Final Project-checkpoint.ipynb
+.ipynb_checkpoints/Final Project-Copy1-checkpoint.ipynb
+Unconfirmed 956597.py
+.ipynb_checkpoints/Final Project-good_so_far-checkpoint.ipynb
+.ipynb_checkpoints/Final Project-Copy2-checkpoint.ipynb
+.ipynb_checkpoints/Final Project-Copy3-checkpoint.ipynb
+.ipynb_checkpoints/Final Project-Copy4-checkpoint.ipynb
+Final Project-Copy4.ipynb
