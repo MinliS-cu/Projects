@@ -1,0 +1,45 @@
+Name: Minli Song
+net ID: ms12231
+NYU ID(N#): N19264696
+
+Collaborators (who you talked to about the lab, what you talked about):
+
+
+Source material that you consulted:
+
+
+Other acknowledgments:
+
+-------------------------------------------------------------------------------
+
+Answers to exercises G1--G3:
+G1:
+This command search all files contains "smutex" in current directory recursively.
+Binary file ./build/sthread.o matches
+Binary file ./build/estoresim matches
+./sthread.h:typedef pthread_mutex_t smutex_t;
+./sthread.h:void smutex_init(smutex_t *mutex);
+
+G2: grep "Task" RequestGenerator.cpp         
+
+grep -r "return" --include=\*.h ./     
+
+G3:
+This return functions begin with "smutex" .
+It will give us where I have init, destroy, lock and unlock the smutes. 
+
+
+------------------------------------------------------------------------------
+
+Anything else you'd like us to know:
+
+
+Extra credit exercise(s) (describe what you coded):
+Exercise 8. 9
+For exercise 8, I suppose we need to wait if we cannot brought in case 
+1. the item is not valid yet // this case could be envoke or cancel from buyManyItems method
+2. the item quantity is not enough yet
+3. the budget is not enough yet
+
+For exercise 9 
+create a const to keep discount rate and shipping cost in each order
